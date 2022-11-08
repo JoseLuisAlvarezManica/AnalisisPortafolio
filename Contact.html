@@ -6,8 +6,10 @@
     <title>Contact</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
     <link href="Style.css" rel="stylesheet">
+    
   </head>
-  <body>
+  <body style= "background-color:#393840">
+
     <div class="parent fondo1-1"> <!-- Div global --> 
             <div class="slider"> <!-- Navbar --> 
               <nav class="navbar navbar-expand-lg">
@@ -26,28 +28,58 @@
                 </div>
               </nav>
             </div>
-            <div class="slider">
-              <table class="table table-secondary table-striped">
-                <thead>
-                  <tr>
-                    <th  class="h1 text-center" scope="col">Información de Contacto</th>
-                  </tr>
-                <tbody>
-                  <tr>
-                    <th  class="h2 text-center" scope="col">Correo Electronico</th>
-                  </tr>
-                  <tr>
-                    <th scope="row" class="h4 text-center">198001@iberopuebla.mx</th>
-                  </tr>
-                  <tr>
-                    <th  class="h2 text-center" scope="col">Telefono</th>
-                  </tr>
-                  <tr>
-                    <th scope="row" class="h4 text-center">2292144753</th>
-                  </tr>
-                </tbody>
-                </table>
+
+            <div class="center-contacto"> <!--Contact Form-->
+              <div class="izquierdo-contacto"> <!--Lado izquierdo-->
+                <div class="autodiv">
+                <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
+                  <path fill="white" d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z"/>
+                </svg>
+                <h5 class="h33">Sardina, Boca del Rio, Ver. 94299, Mexico.</h5>
+                </div>
+                <div class="autodiv">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-telephone" viewBox="0 0 16 16">
+                    <path fill="white" fill-rule="evenodd" d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z"/>
+                  </svg>
+                  <h5 class="h33">(229)2144753</h5>
+                </div>  
+                <div class="autodiv">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-envelope-fill" viewBox="0 0 16 16">
+                    <path fill="white" d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555ZM0 4.697v7.104l5.803-3.558L0 4.697ZM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586l-1.239-.757Zm3.436-.586L16 11.801V4.697l-5.803 3.546Z"/>
+                  </svg>
+                  <h5 class="h33">198001@iberopuebla.mx</h5>
+                </div>
+              </div> 
+
+              <div class="derecho-contacto"> <!--Lado Derecho-->
+                <div class="form">
+                  <h1 style="text-align: center;">Ponerse en contacto</h1>
+                  <form action="">
+                    <div class="flex-rev autodiv2">
+                      <label for="name"><h5 class="35">Nombre Completo </h5></label>
+                      <br>
+                      <input  style=" width:90%;" type="text" placeholder="Jose Luis Alvarez Manica" name="name" id="name" />
+                    </div>
+                    <div class="flex-rev autodiv2">
+                      <label for="email"> <h5 class="35">Tu Email</h5></label>
+                      <br>
+                      <input type="email" style=" width:90%;" placeholder="ejemplo@gmail.com" name="email" id="email" />
+                    
+                    </div>
+            
+                    <div class="flex-rev autodiv2">
+                      <label for="message" class="35"><h5 class="35">Email Message</h5></label>
+                      <br>
+                      <textarea style=" width:90%;" placeholder="Quiero ponerme en contacto debido a ..." name="message" id="message" /></textarea>
+                    </div>
+                    <div class="autodiv2">
+                    <button class="button2";>Send Email</button>
+                    </div>
+                  </form>
+                </div>
+              </div> 
             </div>
+
             <div class="Espacio3">
               <div class="flex-container"> <!-- Footer con redes sociales --> 
                 <div class="redsocial">
